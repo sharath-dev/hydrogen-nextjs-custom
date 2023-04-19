@@ -24,9 +24,8 @@ const Document = () => {
           content="#000"
         />
       </Head>
-      <body>
+      <body className="">
         <Main />
-        <TwSizeIndicator />
         <NextScript />
       </body>
     </Html>

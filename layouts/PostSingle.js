@@ -18,7 +18,7 @@ const PostSingle = ({ post, mdxContent, slug, posts }) => {
 
   return (
     <Base title={title} description={description}>
-      <section className="pt-20 pb-6">
+      <section className="pb-6 pt-20">
         <div className="container">
           <div className="row">
             <div className="mx-auto lg:col-10">
@@ -53,7 +53,7 @@ const PostSingle = ({ post, mdxContent, slug, posts }) => {
                   />
                 )}
                 {markdownify(title, "h1", "h2 mt-12")}
-                <ul className="mt-4 mb-8 text-text">
+                <ul className="mb-8 mt-4 text-text">
                   <li className="mb-2 mr-4 inline-block">
                     <ul>
                       {categories.map((category, i) => (

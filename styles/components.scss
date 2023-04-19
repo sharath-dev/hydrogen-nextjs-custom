@@ -149,3 +149,33 @@
     @apply border-[#ff918ccc] bg-[rgba(255,145,140,.15)];
   }
 }
+body {
+  background: linear-gradient(269deg, #63bddd, #168bd7);
+  background-size: 400% 400%;
+
+  -webkit-animation: background-breathe 8s ease infinite;
+  -moz-animation: background-breathe 8s ease infinite;
+  -o-animation: background-breathe 8s ease infinite;
+  animation: background-breathe 8s ease infinite;
+}
+
+@-webkit-keyframes background-breathe {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes background-breathe {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-o-keyframes background-breathe {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes background-breathe {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}

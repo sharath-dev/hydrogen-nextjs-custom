@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="pt-16 pb-16">
       <div className="container text-center">
         {/* copyright */}
-        {markdownify(copyright, "p", "text-text")}
+        {/* {markdownify(copyright, "p", "text-text")} */}
       </div>
     </footer>
   );
